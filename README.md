@@ -3,6 +3,10 @@ peel
 
 An exception library that can be used to bubble up specific http errors through middleware.
 
+[![Build Status](https://travis-ci.org/avalanche-development/peel.svg?branch=master)](https://travis-ci.org/avalanche-development/peel)
+[![Code Climate](https://codeclimate.com/github/avalanche-development/peel/badges/gpa.svg)](https://codeclimate.com/github/avalanche-development/peel)
+[![Test Coverage](https://codeclimate.com/github/avalanche-development/peel/badges/coverage.svg)](https://codeclimate.com/github/avalanche-development/peel/coverage)
+
 ## Installation
 
 It's recommended that you use [Composer](https://getcomposer.org/) to install peel.
