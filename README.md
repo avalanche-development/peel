@@ -35,14 +35,40 @@ Each exception implements `AvalancheDevelopment\Peel\HttpErrorInterface`, which 
 ### Exceptions
 
 - [BadRequest 400](src/HttpError/BadRequest.php)
+- [Unauthorized 401](src/HttpError/Unauthorized.php)
+- [PaymentRequired 402](src/HttpError/PaymentRequired.php)
+- [Forbidden 403](src/HttpError/Forbidden.php)
 - [NotFound 404](src/HttpError/NotFound.php)
 - [MethodNotAllowed 405](src/HttpError/MethodNotAllowed.php)
+- [NotAcceptable 406](src/HttpError/NotAcceptable.php)
+- [ProxyAuthenticationRequired 407](src/HttpError/ProxyAuthenticationRequired.php)
+- [RequestTimeout 408](src/HttpError/RequestTimeout.php)
+- [Conflict 409](src/HttpError/Conflict.php)
+- [Gone 410](src/HttpError/Gone.php)
+- [LengthRequired 411](src/HttpError/LengthRequired.php)
+- [PreconditionFailed 412](src/HttpError/PreconditionFailed.php)
+- [RequestEntityTooLarge 413](src/HttpError/RequestEntityTooLarge.php)
+- [RequestUriTooLong 414](src/HttpError/RequestUriTooLong.php)
+- [UnsupportedMediaType 415](src/HttpError/UnsupportedMediaType.php)
+- [RequestedRangeNotSatisfiable 416](src/HttpError/RequestedRangeNotSatisfiable.php)
+- [ExpectationFailed 417](src/HttpError/ExpectationFailed.php)
+- [UnprocessableEntity 422](src/HttpError/UnprocessableEntity.php)
+- [Locked 423](src/HttpError/Locked.php)
+- [PreconditionRequired 428](src/HttpError/PreconditionRequired.php)
+- [TooManyRequests 429](src/HttpError/TooManyRequests.php)
+- [RequestHeaderFieldsTooLarge 431](src/HttpError/RequestHeaderFieldsTooLarge.php)
+- [UnavailableForLegalReasons 451](src/HttpError/UnavailableForLegalReasons.php)
+- [InternalServerError 500](src/HttpError/InternalServerError.php)
+- [NotImplemented 501](src/HttpError/NotImplemented.php)
+- [BadGateway 502](src/HttpError/BadGateway.php)
+- [ServiceUnavailable 503](src/HttpError/ServiceUnavailable.php)
+- [GatewayTimeout 504](src/HttpError/GatewayTimeout.php)
 
 Note: see [avalanche-development/crash-pad](https://github.com/avalanche-development/crash-pad) for an error handler that takes advantage of these standardized exceptions.
 
 ## Development
 
-This library is in active development - more exceptions will be added and some additional options may be added for different status as needed.
+This library is a work in progress - there may be additional options (like, error metadata) added for different statuses as needed.
 
 ### Tests
 
