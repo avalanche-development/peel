@@ -80,4 +80,4 @@ $ phpunit
 
 ## License
 
-peel is licensed under the MIT license. See [License File](LICENSE.md) for more information.
+peel is licensed under the MIT license. See [License File](LICENSE) for more information.
